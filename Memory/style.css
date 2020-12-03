@@ -1,0 +1,58 @@
+body{
+    background-color: #000;
+}
+img{
+    max-width:100px;
+    max-height:100px;
+    outline: solid 1px hsl(51, 28%, 48%);    
+}
+img:hover{
+
+            box-shadow: 0 3px 9px 1px #444;
+  }
+
+  #success{
+      color:#f1f1f1;
+      font-size:2rem;
+      max-width:100%;
+      text-align:center;
+      height:2rem;
+      z-index:999;
+     
+      
+  }
+.main{
+    display:flex;
+    justify-content:center;
+    flex-basis: 0;
+    flex-wrap:wrap;
+    max-width:100%;
+
+}
+h3{
+    color:#999;
+    width:100%;
+    font-size:1.8rem;
+    text-align:center;
+    margin:2rem 0 0 0;
+    padding:0;
+    font-family: 'Press Start 2P', cursive;
+}
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    height:600px;
+    max-width:500px;
+    max-height:600px;
+    width:500px;
+    
+    z-index:1;
+    background-image: url("images/background.jpg");
+    background-position: center center;
+    background-size:cover;
+    background-repeat:no-repeat;
+
+    
+   
+}
+
